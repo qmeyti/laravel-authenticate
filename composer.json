@@ -21,7 +21,7 @@
     },
     "repositories": [
         {
-            "type": "github",
+            "type": "vcs",
             "url": "https://github.com/qmeyti/laravel-authenticate.git"
         }
     ],
