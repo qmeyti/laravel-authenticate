@@ -1,0 +1,35 @@
+{
+    "name": "qmeyti/laravel-authenticate",
+    "description": "laravel auth package",
+    "keywords": ["laravel", "auth", "qmeyti", "login", "register", "vrification", "forget", "password", "multiauth", "multilogin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehdi Hajatpour",
+            "email": "mehdi.hajatpour@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ipecompany/smsirlaravel": ">=1.0.7"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Qmeyti\\LaravelAuth\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/qmeyti/laravel-authenticate.git"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Qmeyti\\LaravelAuth\\QmeytiLaravelAuthServiceProvider"
+            ]
+        }
+    }
+}
